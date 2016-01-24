@@ -39,7 +39,10 @@ Planning for the Duke SSRI Julia Short Course, February 11, 2016.
     - type annotations: when you do and don't need them
 
 ## Other Topics
-- dataframes
+- Importing datasets from other languages
+    - Matlab/R/Stata/SPSS/SAS datasets
+    - CSV files
+- DataFrames
     - How to use
     - How to convert to matrices and back
     - NA type
