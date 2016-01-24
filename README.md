@@ -12,6 +12,7 @@ Planning for the Duke SSRI Julia Short Course, February 11, 2016.
     - linear algebra
     - comprehensions
     - it's okay to use loops
+    - but it's also okay to vectorize (but be careful!)
 
 1. Other data types
     - tuple
@@ -39,5 +40,15 @@ Planning for the Duke SSRI Julia Short Course, February 11, 2016.
 
 ## Other Topics
 - dataframes
+    - How to use
+    - How to convert to matrices and back
+    - NA type
+    - GLM package for basic data analysis
 - optimization
+    - JuliaOpt
+    - JuMP
 - distributions
+    - distributions as objects
+    - evaluating distributions
+    - drawing from distributions
+    - automated log transformations
