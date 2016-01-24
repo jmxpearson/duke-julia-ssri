@@ -39,6 +39,10 @@ Planning for the Duke SSRI Julia Short Course, February 11, 2016.
     - type annotations: when you do and don't need them
 
 ## Other Topics
+- Language similarites / Best coding practices / avoiding "gotchas"
+    - Put everything in functions so as to avoid Julia's default global scoping
+    - Basic syntax comparisons with sister languages (Matlab, Python, R, etc.) 
+    - Other "gotchas" might already be discussed above with the compilation details section
 - Importing datasets from other languages
     - Matlab/R/Stata/SPSS/SAS datasets
     - CSV files
@@ -55,3 +59,5 @@ Planning for the Duke SSRI Julia Short Course, February 11, 2016.
     - evaluating distributions
     - drawing from distributions
     - automated log transformations
+- Last but not least:
+    - Under what conditions should I consider switching to Julia?
