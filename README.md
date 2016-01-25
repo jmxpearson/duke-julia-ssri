@@ -48,6 +48,8 @@ Planning for the Duke SSRI Julia Short Course, February 11, 2016.
     - @time
     - garbage collection; memory management
     - Debugging
+5. Macros & meta-programming
+    - [This might be worth a brief mention, but nothing more]
 
 ## Other Topics (Tyler, with input from John on gotchas)
 1. Language similarites / Best coding practices / avoiding "gotchas"
