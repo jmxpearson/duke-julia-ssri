@@ -1,7 +1,7 @@
 Planning for the Duke SSRI Julia Short Course, February 11, 2016.
 
 # Topics to be covered:
-## Overview: Why Julia? (Tyler)
+## Overview: Why Julia? (John)
 - Goals:
     - as easy to use as Python, R, or Matlab
     - within a factor of 2 of FORTRAN or C
