@@ -17,6 +17,7 @@ println(pdf(mydist,x))
 # evaluate the density of the distribution at the vector X:
 X = rand(50,2)
 println(pdf(mydist,X'))
+println(size(pdf(mydist,X')))
 
 # draw from the distribution n times:
 println(rand(mydist,50)) # returns a d-by-n matrix, where d is the dimension of the distributions (2, in this case) and n is the number of draws
