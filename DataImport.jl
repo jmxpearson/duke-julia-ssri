@@ -34,13 +34,23 @@ matwrite("tester.mat", {
 # Pkg.add("DataFrames")
 using DataFrames
 
-# import CSV (e.g. from Stata, R, Matlab, Python)
+# import CSV to Data Frame (e.g. from Stata, R, Matlab, Python)
 autoDF = readtable("auto.csv")
 autoDF = readtable("auto.csv", nastrings=["", "na", "n/a", "missing"])
 
-# export CSV (e.g. to Stata, R, Matlab, Python)
+# export Data Frame to CSV (e.g. to Stata, R, Matlab, Python)
 writetable("auto1.csv", autoDF)
 writetable("auto1.csv", autoDF, separator = ',', header = false)
 
-# export tab-delimited file (e.g. to Stata, R, Matlab, Python)
+# export Data Frame to tab-delimited file (e.g. to Stata, R, Matlab, Python)
 writetable("auto1.dat", autoDF, separator = '\t')
+
+# import CSV to Data Frame (e.g. from Stata, R, Matlab, Python)
+autoDF = readtable("auto.csv")
+autoDF = readtable("auto.csv", nastrings=["", "na", "n/a", "missing"])
+
+# import Julia array to tab-delimited file (e.g. to Stata, R, Matlab, Python)
+writedlm("auto1.dat", autoDF, separator = '\t')
+
+# export Julia array to tab-delimited file (e.g. to Stata, R, Matlab, Python)
+writedlm("auto1.dat", autoDF, delim = '\t')
