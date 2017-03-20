@@ -1,4 +1,4 @@
-Planning for the Duke SSRI Julia Short Course, February 11, 2016.
+Planning for the Duke SSRI Julia Short Course, March 22, 2017.
 
 # Topics to be covered:
 ## Overview: Why Julia? (John)
