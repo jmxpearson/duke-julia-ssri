@@ -64,7 +64,7 @@ Planning for the Duke SSRI Julia Short Course, March 22, 2017.
     - adding type info to list comprehensions
     - Basic syntax comparisons with sister languages (Matlab, Python, R, etc.)
     - Other "gotchas" might already be discussed above with the compilation details section
-    - see [here](http://docs.julialang.org/en/release-0.4/manual/performance-tips/) for a more complete list
+    - see [here](http://docs.julialang.org/en/release-0.5/manual/performance-tips/) for a more complete list
 2. Importing datasets from other languages
     - Matlab/R/Stata/SPSS/SAS datasets
     - CSV files
@@ -82,3 +82,16 @@ Planning for the Duke SSRI Julia Short Course, March 22, 2017.
     - drawing from distributions
     - automated log transformations for MLE applications
     - maybe worth noting that StatsFuns.jl logpdfs are automatically differentiable by ForwardDiff.jl [PR](https://github.com/JuliaDiff/ForwardDiff.jl/pull/73)
+
+
+## Presentation order of jupyter notebook files
+1. `intro_slides.ipynb`
+2. `Julia basics.ipynb`
+3. `PlottingWithWinston.ipynb`
+4. `PlottingWithGadfly.ipynb`
+5. `SimilarityOtherLanguages.ipynb`
+6. `DataImport.ipynb`
+7. `DataFrames.ipynb`
+8. `Regressions.ipynb`
+9. `Nonlinear optimization with JuMP.ipynb`
+10. `Distributions.ipynb`
