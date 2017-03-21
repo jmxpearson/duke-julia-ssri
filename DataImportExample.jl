@@ -24,11 +24,11 @@ Horsepower   = vars["Horsepower"]
 
 # Write Matlab dataset
 X=rand(50000,5)
-matwrite("tester.mat", {
+matwrite("tester.mat", Dict(
     "X" => X,
     "Acceleration" => Acceleration,
     "Horsepower" => Horsepower
-})
+))
 
 ## Interface with CSVs
 # Pkg.add("DataFrames")
@@ -50,7 +50,7 @@ autoDF = readtable("auto.csv")
 autoDF = readtable("auto.csv", nastrings=["", "na", "n/a", "missing"])
 
 # import Julia array to tab-delimited file (e.g. to Stata, R, Matlab, Python)
-writedlm("auto1.dat", autoDF, separator = '\t')
+writedlm("auto1.dat", autoDF, delim = '\t')
 
 # export Julia array to tab-delimited file (e.g. to Stata, R, Matlab, Python)
 writedlm("auto1.dat", autoDF, delim = '\t')
